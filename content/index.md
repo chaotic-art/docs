@@ -1,123 +1,167 @@
 ---
 seo:
-  title: Write beautiful docs with Markdown
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
-    design out of the box. Docus brings together the best of the Nuxt ecosystem.
-    Powered by Nuxt UI Pro.
+  title: Chaotic - NFT Marketplace for Polkadot
+  description: The premier public good NFT marketplace for Polkadot. Experience lightning-fast trading, AI drops, shopping cart system, and seamless auto-teleport functionality. Embrace the chaos!
+  ogImage: '/social-card.png'
 ---
 
 ::u-page-hero
+---
+class: chaotic-bg
+---
 #title
-Write beautiful docs with Markdown
+Welcome to Chaotic 🌀
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
+The **public good** NFT marketplace for Polkadot.
 
-Docus brings the best of the Nuxt ecosystem into one CLI.
+Where chaos meets innovation. Experience lightning-fast trading, AI-powered drops, and the most degen-friendly marketplace in the ecosystem.
 
 #links
   :::u-button
   ---
-  color: neutral
+  color: primary
   size: xl
-  to: /getting-started/installation
-  trailing-icon: i-lucide-arrow-right
+  to: /getting-started
+  trailing-icon: i-lucide-rocket
+  class: chaotic-btn chaotic-glow
   ---
-  Get started
+  Start Your Chaos
   :::
 
   :::u-button
   ---
-  color: neutral
-  icon: simple-icons-github
+  color: white
+  icon: simple-icons-polkadot
   size: xl
-  to: https://github.com/nuxt-ui-pro/docus
+  to: https://chaotic.xyz
   variant: outline
+  class: chaotic-glow
   ---
-  Star on GitHub
+  Launch App
+  :::
+::
+
+::u-page-section
+---
+class: feature-grid
+---
+#title
+What is Chaotic? 🤔
+
+#description
+Chaotic is the **public good NFT marketplace** for Polkadot - where innovation meets degeneracy, and everyone wins. Built by the community, for the community.
+
+We're not just another marketplace. We're the **evolution of KodaDot** - faster, better, more chaotic than ever before.
+::
+
+::u-page-section
+#title
+Key Features That Make Us Chaotic
+
+#features
+  :::u-page-feature
+  ---
+  icon: i-lucide-zap
+  class: chaotic-card
+  ---
+  #title
+  Lightning Fast [5x Improvement]{.text-primary}
+  
+  #description
+  Experience blazing-fast NFT trading with our optimized Polkadot infrastructure. Load times that make other marketplaces look prehistoric.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-brain
+  class: chaotic-card
+  ---
+  #title
+  AI Drops [Powered by AI]{.text-primary}
+  
+  #description
+  Revolutionary AI-powered NFT creation and minting. Let artificial intelligence unleash your chaotic creativity and generate unique digital assets.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-shopping-cart
+  class: chaotic-card
+  ---
+  #title
+  Shopping Cart [Multi-Buy System]{.text-primary}
+  
+  #description
+  Finally! Buy multiple NFTs in a single transaction. Stack your chaos, save on fees, and shop like a true degen with our advanced cart system.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-shuffle
+  class: chaotic-card
+  ---
+  #title
+  Auto-Teleport [Cross-Chain Magic]{.text-primary}
+  
+  #description
+  Seamless cross-chain fund management. Your DOT automatically teleports where it needs to be. No more manual bridging - just pure chaos efficiency.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-palette
+  class: chaotic-card
+  ---
+  #title
+  Artist-First [Proven Track Record]{.text-primary}
+  
+  #description
+  We've helped artists achieve consistent sellouts. Our platform amplifies creators and connects them with collectors who appreciate true digital art.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-code
+  class: chaotic-card
+  ---
+  #title
+  PolkaVM Integration [Coming Q3-Q4]{.text-primary}
+  
+  #description
+  Next-generation smart contract execution with PolkaVM. The future of Polkadot development is coming to Chaotic first.
   :::
 ::
 
 ::u-page-section
 #title
-Shipped with many features
+Our Mission: Embrace the Chaos
 
-#features
-  :::u-page-feature
+#description
+We believe NFTs should be **accessible**, **fun**, and **profitable** for everyone. Chaotic breaks down barriers between creators and collectors while maintaining the highest standards of quality and innovation.
+
+**Public Good Model**: Everything we build benefits the entire Polkadot ecosystem. No rent-seeking, no gatekeeping - just pure value creation.
+
+#links
+  :::u-button
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com
+  color: primary
+  size: lg
+  to: /getting-started/how-to-get-started
+  trailing-icon: i-lucide-arrow-right
+  class: chaotic-btn
   ---
-  #title
-  Built with [Nuxt 4]{.text-primary}
-  
-  #description
-  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+  Get Started Now
   :::
 
-  :::u-page-feature
+  :::u-button
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/
+  color: neutral
+  icon: i-lucide-users
+  size: lg
+  to: /community
+  variant: outline
   ---
-  #title
-  Powered by [Nuxt UI Pro]{.text-primary}
-  
-  #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI Pro to give you the best docs writing experience with zero boilerplate, just focus on your content.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com
-  ---
-  #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
-  
-  #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
-  ---
-  #title
-  Customize with [Nuxt App Config]{.text-primary}
-  
-  #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com/studio
-  ---
-  #title
-  Collaborate on [Nuxt Studio]{.text-primary}
-  
-  #description
-  Write and manage your content visually, with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/components/content-search
-  ---
-  #title
-  Built-in navigation and [full-text search]{.text-primary}
-  
-  #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  Join the Community
   :::
 ::

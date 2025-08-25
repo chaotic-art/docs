@@ -1,6 +1,9 @@
 export default defineNuxtConfig({
   extends: ['docus'],
   
+  // Import custom CSS
+  css: ['~/assets/css/chaotic.css'],
+  
   // SEO
   seo: {
     siteName: 'Chaotic - NFT Marketplace for Polkadot',
