@@ -1,6 +1,7 @@
 ---
-title: How to Get Started
-description: Your journey into chaos begins here. Learn how to navigate Chaotic and start trading NFTs on Polkadot.
+title: 'How to Get Started'
+description: 'Your journey into chaos begins here. Learn how to navigate Chaotic and start trading NFTs on Polkadot'
+navigation: true
 ---
 
 # How to Get Started 🚀

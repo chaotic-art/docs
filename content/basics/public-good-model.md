@@ -1,6 +1,7 @@
 ---
-title: Our Public Good Model  
-description: Discover how Chaotic operates as a public good, benefiting the entire Polkadot ecosystem rather than extracting value.
+title: 'Public Good Model'
+description: 'Discover how Chaotic operates as a public good, benefiting the entire Polkadot ecosystem rather than extracting value'
+navigation: true
 ---
 
 # Our Public Good Model 🌍

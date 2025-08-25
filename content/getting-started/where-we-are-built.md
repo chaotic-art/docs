@@ -1,6 +1,7 @@
 ---
-title: Where We're Built
-description: Discover the technical foundation of Chaotic - built on Polkadot with cutting-edge Web3 infrastructure.
+title: "Where We're Built"
+description: 'Discover the technical foundation of Chaotic - built on Polkadot with cutting-edge Web3 infrastructure'
+navigation: true
 ---
 
 # Where We're Built 🏗️

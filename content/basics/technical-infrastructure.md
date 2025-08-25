@@ -1,6 +1,7 @@
 ---
-title: Technical Infrastructure
-description: Deep dive into the technical architecture powering the fastest NFT marketplace on Polkadot.
+title: 'Technical Infrastructure'
+description: 'Deep dive into the technical architecture powering the fastest NFT marketplace on Polkadot'
+navigation: true
 ---
 
 # Technical Infrastructure ⚡

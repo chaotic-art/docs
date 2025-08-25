@@ -1,6 +1,7 @@
 ---
-title: Team
-description: Meet the chaotic minds behind the premier Polkadot NFT marketplace.
+title: 'Team'
+description: 'Meet the chaotic minds behind the premier Polkadot NFT marketplace'
+navigation: true
 ---
 
 # Team 🌀
