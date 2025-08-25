@@ -6,15 +6,14 @@ export default defineAppConfig({
     image: '/social-card.png',
     
     socials: {
-      twitter: 'chaoticdotxyz',
-      discord: {
-        label: 'Discord',
-        href: 'https://discord.gg/chaotic', // To be configured
-        icon: 'simple-icons:discord'
+      twitter: {
+        label: 'X (Twitter)',
+        href: 'https://x.com/ChaoticApp',
+        icon: 'simple-icons:x'
       },
       telegram: {
-        label: 'Telegram', 
-        href: 'https://t.me/chaotic_nft', // To be configured
+        label: 'Telegram',
+        href: 'https://t.me/chaoticapp',
         icon: 'simple-icons:telegram'
       },
       github: 'chaotic-nft'
@@ -60,6 +59,16 @@ export default defineAppConfig({
           label: 'Chaotic Marketplace',
           href: 'https://chaotic.xyz',
           icon: 'simple-icons:ethereum'
+        },
+        {
+          label: 'X (Twitter)',
+          href: 'https://x.com/ChaoticApp',
+          icon: 'simple-icons:x'
+        },
+        {
+          label: 'Telegram',
+          href: 'https://t.me/chaoticapp',
+          icon: 'simple-icons:telegram'
         },
         {
           label: 'GitHub',
