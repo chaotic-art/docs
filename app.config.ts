@@ -1,44 +1,42 @@
 export default defineAppConfig({
-  // Header configuration with logo
-  header: {
+  docus: {
     title: 'Chaotic Docs',
-    logo: {
-      alt: 'Chaotic',
-      light: '/logo-light.svg',
-      dark: '/logo-dark.svg'
-    }
-  },
-  
-  // Social links (appear in footer automatically)
-  socials: {
-    x: 'https://x.com/ChaoticApp',
-    telegram: 'https://t.me/chaoticapp',
-    github: 'https://github.com/chaotic-nft'
-  },
-  
-  // GitHub configuration for edit links
-  github: {
-    url: 'https://github.com/chaotic-nft/docs',
-    branch: 'main',
-    rootDir: ''
-  },
-  
-  // Table of contents with bottom links
-  toc: {
-    title: 'On this page',
-    bottom: {
-      title: 'Community',
-      links: [{
-        icon: 'i-lucide-rocket',
-        label: 'Chaotic Marketplace',
-        to: 'https://chaotic.xyz',
-        target: '_blank'
-      }, {
-        icon: 'i-lucide-code',
-        label: 'Developer API', 
-        to: 'https://api.chaotic.xyz',
-        target: '_blank'
-      }]
+    description: 'The premier public good NFT marketplace for Polkadot',
+    image: '/social-card.png',
+    
+    // Social links
+    socials: {
+      x: 'https://x.com/ChaoticApp',
+      telegram: 'https://t.me/chaoticapp', 
+      github: 'https://github.com/chaotic-nft'
+    },
+    
+    // GitHub configuration
+    github: {
+      dir: '.starters/default/content',
+      branch: 'main',
+      repo: 'docus',
+      owner: 'nuxt-themes',
+      edit: true
+    },
+    
+    // Header with logo
+    header: {
+      logo: {
+        light: '/logo-dark.svg',
+        dark: '/logo-light.svg'
+      },
+      title: false
+    },
+    
+    // Footer
+    footer: {
+      iconLinks: [
+        {
+          href: 'https://chaotic.xyz',
+          icon: 'simple-icons:ethereum'
+        }
+      ]
     }
   },
   
