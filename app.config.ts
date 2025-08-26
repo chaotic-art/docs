@@ -1,81 +1,44 @@
 export default defineAppConfig({
-  docus: {
+  // Header configuration with logo
+  header: {
     title: 'Chaotic Docs',
-    description: 'The premier public good NFT marketplace for Polkadot',
-    url: 'https://docs.chaotic.xyz',
-    image: '/social-card.png',
-    
-    socials: {
-      twitter: {
-        label: 'X (Twitter)',
-        href: 'https://x.com/ChaoticApp',
-        icon: 'simple-icons:x'
-      },
-      telegram: {
-        label: 'Telegram',
-        href: 'https://t.me/chaoticapp',
-        icon: 'simple-icons:telegram'
-      },
-      github: 'chaotic-nft'
-    },
-    
-    header: {
-      logo: true,
-      title: 'Chaotic 🌀',
-      showLinkIcon: true,
-      exclude: [],
-      navigation: true
-    },
-    
-    aside: {
-      level: 0,
-      collapsed: false,
-      exclude: []
-    },
-    
-    main: {
-      padded: true,
-      fluid: false
-    },
-    
-    footer: {
-      credits: {
-        icon: 'IconDocus',
-        text: 'Powered by Docus',
-        href: 'https://docus.dev'
-      },
-      textLinks: [
-        {
-          text: 'Chaotic NFT Marketplace',
-          href: 'https://chaotic.xyz'
-        },
-        {
-          text: 'Developer API',
-          href: 'https://api.chaotic.xyz'
-        }
-      ],
-      iconLinks: [
-        {
-          label: 'Chaotic Marketplace',
-          href: 'https://chaotic.xyz',
-          icon: 'simple-icons:ethereum'
-        },
-        {
-          label: 'X (Twitter)',
-          href: 'https://x.com/ChaoticApp',
-          icon: 'simple-icons:x'
-        },
-        {
-          label: 'Telegram',
-          href: 'https://t.me/chaoticapp',
-          icon: 'simple-icons:telegram'
-        },
-        {
-          label: 'GitHub',
-          href: 'https://github.com/chaotic-nft',
-          icon: 'simple-icons:github'
-        }
-      ]
+    logo: {
+      alt: 'Chaotic',
+      light: '/logo-light.svg',
+      dark: '/logo-dark.svg'
+    }
+  },
+  
+  // Social links (appear in footer automatically)
+  socials: {
+    x: 'https://x.com/ChaoticApp',
+    telegram: 'https://t.me/chaoticapp',
+    github: 'https://github.com/chaotic-nft'
+  },
+  
+  // GitHub configuration for edit links
+  github: {
+    url: 'https://github.com/chaotic-nft/docs',
+    branch: 'main',
+    rootDir: ''
+  },
+  
+  // Table of contents with bottom links
+  toc: {
+    title: 'On this page',
+    bottom: {
+      title: 'Community',
+      links: [{
+        icon: 'i-lucide-rocket',
+        label: 'Chaotic Marketplace',
+        to: 'https://chaotic.xyz',
+        target: '_blank'
+      }, {
+        icon: 'i-lucide-code',
+        label: 'Developer API', 
+        to: 'https://api.chaotic.xyz',
+        target: '_blank'
+      }]
     }
   },
   
