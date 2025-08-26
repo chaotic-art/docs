@@ -20,8 +20,8 @@ We're not just another marketplace. We're the **evolution of KodaDot** - faster,
   ---
   to: /getting-started
   size: xl
-  color: primary
-  class: border border-gray-300 shadow-sm bg-white hover:bg-gray-50
+  color: gray
+  class: border border-gray-300 shadow-sm bg-white hover:bg-gray-50 text-gray-900
   ---
   Take me to docs →
   :::
@@ -32,7 +32,7 @@ We're not just another marketplace. We're the **evolution of KodaDot** - faster,
   target: _blank
   size: xl
   variant: outline
-  class: border-2 border-gray-600 bg-gray-100 hover:bg-gray-200
+  class: border-2 border-gray-600 bg-gray-100 hover:bg-gray-200 text-gray-900
   ---
   Launch App ↗
   :::
