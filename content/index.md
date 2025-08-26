@@ -1,46 +1,25 @@
 ---
-seo:
-  title: Chaotic - NFT Marketplace for Polkadot
-  description: The premier public good NFT marketplace for Polkadot. Experience lightning-fast trading, AI drops, shopping cart system, and seamless auto-teleport functionality. Embrace the chaos!
-  ogImage: '/social-card.png'
+title: Chaotic Documentation
+navigation: false
 ---
 
-::u-page-hero
+# Welcome to Chaotic
+
+The **public good** NFT marketplace for Polkadot - where innovation meets degeneracy, and everyone wins. Built by the community, for the community.
+
+We're the **evolution of KodaDot** - faster, better, more chaotic than ever before.
+
+[Take me to docs →](/getting-started){.text-lg .font-semibold .px-6 .py-3 .bg-gray-900 .text-white .rounded-lg .inline-block .mr-4}
+
+[Launch App ↗](https://chaotic.xyz){.text-lg .font-semibold .px-6 .py-3 .border .border-gray-300 .rounded-lg .inline-block}
+
 ---
-class: chaotic-bg
----
-#title
-Welcome to Chaotic 🌀
 
-#description
-The **public good** NFT marketplace for Polkadot.
+## What is Chaotic?
 
-Where chaos meets innovation. Experience lightning-fast trading, AI-powered drops, and the most degen-friendly marketplace in the ecosystem.
+Chaotic is the **public good NFT marketplace** for Polkadot - where innovation meets degeneracy, and everyone wins. Built by the community, for the community.
 
-#links
-  :::u-button
-  ---
-  color: primary
-  size: xl
-  to: /getting-started
-  trailing-icon: i-lucide-rocket
-  class: chaotic-btn chaotic-glow
-  ---
-  Start Your Chaos
-  :::
-
-  :::u-button
-  ---
-  color: white
-  icon: simple-icons-polkadot
-  size: xl
-  to: https://chaotic.xyz
-  variant: outline
-  class: chaotic-glow
-  ---
-  Launch App
-  :::
-::
+We're the **evolution of KodaDot** - faster, better, more chaotic than ever before.
 
 ::u-page-section
 ---

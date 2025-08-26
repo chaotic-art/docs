@@ -1,24 +1,22 @@
-/* Chaotic Theme - Embrace the Chaos! */
+/* Minimal Theme - Clean Documentation */
 
 :root {
-  --chaotic-purple: #8b5cf6;
-  --chaotic-purple-light: #a78bfa;
-  --chaotic-purple-dark: #7c3aed;
-  --chaotic-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --chaotic-glow: 0 0 20px rgba(139, 92, 246, 0.3);
+  --doc-primary: #374151;
+  --doc-secondary: #6b7280;
+  --doc-border: #e5e7eb;
 }
 
-/* Animated background for hero sections */
-.chaotic-bg {
-  background: var(--chaotic-gradient);
-  background-size: 400% 400%;
-  animation: chaotic-flow 15s ease infinite;
+/* Clean hero sections */
+.hero-section {
+  background: white;
+  color: black;
+  padding: 2rem 0;
 }
 
-@keyframes chaotic-flow {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+/* Dark mode */
+.dark .hero-section {
+  background: rgb(15, 15, 15);
+  color: white;
 }
 
 /* Glowing effects for interactive elements */
