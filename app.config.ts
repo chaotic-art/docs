@@ -20,15 +20,16 @@ export default defineAppConfig({
       showLinkIcon: true,
       search: true  // Enable search in middle
     },
-  
-  // Footer
-  footer: {
-    iconLinks: [
-      {
-        href: 'https://chaotic.xyz',
-        icon: 'simple-icons:ethereum'
-      }
-    ]
+    
+    // Footer
+    footer: {
+      iconLinks: [
+        {
+          href: 'https://chaotic.xyz',
+          icon: 'simple-icons:ethereum'
+        }
+      ]
+    }
   },
   
   ui: {
