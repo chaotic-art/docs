@@ -129,21 +129,11 @@ We believe NFTs should be **accessible**, **fun**, and **profitable** for everyo
   :::u-button
   ---
   color: primary
-  size: lg
-  to: /getting-started/how-to-get-started
-  trailing-icon: i-lucide-arrow-right
-  class: chaotic-btn
-  ---
-  Get Started Now
-  :::
-
-  :::u-button
-  ---
-  color: neutral
   icon: i-lucide-users
   size: lg
-  to: /community
-  variant: outline
+  to: https://t.me/chaoticapp
+  target: _blank
+  class: border border-gray-300 shadow-sm bg-white hover:bg-gray-50 text-gray-900
   ---
   Join the Community
   :::
