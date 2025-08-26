@@ -1,12 +1,36 @@
 {
-  "name": "chaotic",
+  "name": "chaotic-docs",
+  "version": "1.0.0",
+  "description": "Documentation for Chaotic - The public good NFT marketplace for Polkadot",
+  "author": "Chaotic Team",
+  "license": "MIT",
+  "homepage": "https://chaotic.xyz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chaotic-nft/chaotic-docs.git"
+  },
+  "keywords": [
+    "nft",
+    "polkadot",
+    "marketplace",
+    "documentation",
+    "web3",
+    "substrate",
+    "public-good"
+  ],
   "scripts": {
     "dev": "nuxt dev --extends docus",
-    "build": "nuxt build --extends docus"
+    "build": "nuxt build --extends docus",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
     "docus": "latest",
     "better-sqlite3": "^12.2.0",
     "nuxt": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
   }
 }
