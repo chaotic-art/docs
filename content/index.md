@@ -3,23 +3,38 @@ title: Chaotic Documentation
 navigation: false
 ---
 
-# Welcome to Chaotic
+::u-page-section
+---
+class: text-center
+---
+#title
+Welcome to Chaotic
 
+#description
 The **public good** NFT marketplace for Polkadot - where innovation meets degeneracy, and everyone wins. Built by the community, for the community.
 
 We're the **evolution of KodaDot** - faster, better, more chaotic than ever before.
 
-[Take me to docs →](/getting-started){.text-lg .font-semibold .px-6 .py-3 .bg-gray-900 .text-white .rounded-lg .inline-block .mr-4}
+#links
+  :::u-button
+  ---
+  to: /getting-started
+  size: xl
+  color: gray
+  ---
+  Take me to docs →
+  :::
 
-[Launch App ↗](https://chaotic.xyz){.text-lg .font-semibold .px-6 .py-3 .border .border-gray-300 .rounded-lg .inline-block}
-
----
-
-## What is Chaotic?
-
-Chaotic is the **public good NFT marketplace** for Polkadot - where innovation meets degeneracy, and everyone wins. Built by the community, for the community.
-
-We're the **evolution of KodaDot** - faster, better, more chaotic than ever before.
+  :::u-button
+  ---
+  to: https://chaotic.xyz
+  target: _blank
+  size: xl
+  variant: ghost
+  ---
+  Launch App ↗
+  :::
+::
 
 ::u-page-section
 ---
