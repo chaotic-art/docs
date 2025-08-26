@@ -11,16 +11,17 @@ class: text-center
 Welcome to Chaotic
 
 #description
-The **public good** NFT marketplace for Polkadot - where innovation meets degeneracy, and everyone wins. Built by the community, for the community.
+The **public good NFT marketplace** for Polkadot - where innovation meets degeneracy, and everyone wins. Built by the community, for the community.
 
-We're the **evolution of KodaDot** - faster, better, more chaotic than ever before.
+We're not just another marketplace. We're the **evolution of KodaDot** - faster, better, more chaotic than ever before.
 
 #links
   :::u-button
   ---
   to: /getting-started
   size: xl
-  color: gray
+  color: primary
+  class: border border-gray-300 shadow-sm bg-white hover:bg-gray-50
   ---
   Take me to docs →
   :::
@@ -30,23 +31,11 @@ We're the **evolution of KodaDot** - faster, better, more chaotic than ever befo
   to: https://chaotic.xyz
   target: _blank
   size: xl
-  variant: ghost
+  variant: outline
+  class: border-2 border-gray-600 bg-gray-100 hover:bg-gray-200
   ---
   Launch App ↗
   :::
-::
-
-::u-page-section
----
-class: feature-grid
----
-#title
-What is Chaotic? 🤔
-
-#description
-Chaotic is the **public good NFT marketplace** for Polkadot - where innovation meets degeneracy, and everyone wins. Built by the community, for the community.
-
-We're not just another marketplace. We're the **evolution of KodaDot** - faster, better, more chaotic than ever before.
 ::
 
 ::u-page-section
