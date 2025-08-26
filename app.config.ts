@@ -6,15 +6,8 @@ export default defineAppConfig({
     github: 'https://github.com/chaotic-nft'
   },
   
-  // Header with logo only - NO title at all
-  header: {
-    logo: {
-      alt: '',
-      light: '/logo-icon.svg',
-      dark: '/logo-icon-dark.svg'
-    }
-    // NO title property - completely removed
-  },
+  // Header - disable completely
+  header: false,
   
   // Footer
   footer: {
