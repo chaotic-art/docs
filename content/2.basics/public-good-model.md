@@ -4,10 +4,6 @@ description: 'Discover how Chaotic operates as a public good, benefiting the ent
 navigation: true
 ---
 
-# Our Public Good Model 🌍
-
-Chaotic isn't just another NFT marketplace trying to maximize profits. We operate as a **public good** - everything we build strengthens the entire Polkadot ecosystem.
-
 ## What Does Public Good Mean?
 
 ### No Rent-Seeking

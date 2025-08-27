@@ -4,9 +4,7 @@ description: 'Discover the technical foundation of Chaotic - built on Polkadot w
 navigation: true
 ---
 
-# Where We're Built 🏗️
 
-Chaotic isn't just built on any blockchain - we're proudly **built on Polkadot**, the most advanced multi-chain platform in Web3.
 
 ## Technical Infrastructure
 

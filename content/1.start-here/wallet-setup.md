@@ -4,7 +4,6 @@ description: 'Detailed guide to setting up your Polkadot wallet for Chaotic'
 navigation: true
 ---
 
-# Wallet Setup 💰
 
 ## Account Security First
 
@@ -109,7 +108,7 @@ Ready for your first NFT purchase?
 
 ::u-button
 ---
-to: /getting-started/first-nft
+to: /start-here/first-nft
 color: primary
 class: chaotic-btn
 ---

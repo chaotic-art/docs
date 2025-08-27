@@ -18,7 +18,7 @@ We're not just another marketplace. We're the **evolution of KodaDot** - faster,
 #links
   :::u-button
   ---
-  to: /getting-started
+  to: /start-here
   size: xl
   color: gray
   class: border border-gray-300 shadow-sm bg-white hover:bg-gray-50 text-gray-900
@@ -122,8 +122,6 @@ Our Mission: Embrace the Chaos
 
 #description
 We believe NFTs should be **accessible**, **fun**, and **profitable** for everyone. Chaotic breaks down barriers between creators and collectors while maintaining the highest standards of quality and innovation.
-
-**Public Good Model**: Everything we build benefits the entire Polkadot ecosystem. No rent-seeking, no gatekeeping - just pure value creation.
 
 #links
   :::u-button

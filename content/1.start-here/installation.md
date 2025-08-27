@@ -4,7 +4,6 @@ description: 'Get your wallet ready and connect to the Chaotic marketplace'
 navigation: true
 ---
 
-# Installation 🛠️
 
 ## Wallet Setup
 
@@ -72,7 +71,7 @@ Ready to make your first purchase? Let's go!
 
 ::u-button
 ---
-to: /getting-started/first-nft
+to: /start-here/first-nft
 color: primary
 class: chaotic-btn
 ---

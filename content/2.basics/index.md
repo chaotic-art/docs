@@ -4,10 +4,6 @@ description: 'Meet the chaotic minds behind the premier Polkadot NFT marketplace
 navigation: true
 ---
 
-# Team 🌀
-
-Chaotic is built by a passionate team of degens, builders, and visionaries who believe NFTs should be accessible, fun, and profitable for everyone.
-
 ## Core Team
 
 ### The Builders

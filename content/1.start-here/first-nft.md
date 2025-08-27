@@ -4,9 +4,7 @@ description: 'Step-by-step guide to buying your first NFT on Chaotic'
 navigation: true
 ---
 
-# Your First NFT Purchase 🎨
 
-Ready to embrace the chaos? Let's get you your first NFT!
 
 ## Step 1: Browse Collections
 

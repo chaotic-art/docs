@@ -4,9 +4,7 @@ description: 'Complete API documentation for integrating with Chaotic marketplac
 navigation: true
 ---
 
-# API Reference 📚
 
-Complete reference for all Chaotic APIs including GraphQL queries, REST endpoints, and WebSocket events.
 
 ## Base URLs
 

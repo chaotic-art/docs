@@ -4,7 +4,6 @@ description: 'Deep dive into the technical architecture and APIs powering Chaoti
 navigation: true
 ---
 
-# Technical Documentation 💻
 
 Welcome to the technical heart of Chaotic. Here you'll find everything needed to understand, integrate with, or contribute to our platform.
 

@@ -4,10 +4,6 @@ description: 'The first NFT marketplace with a proper shopping cart system - buy
 navigation: true
 ---
 
-# Shopping Cart System 🛒
-
-Finally! The feature every NFT trader has been waiting for - a **proper shopping cart** that lets you buy multiple NFTs in a single transaction.
-
 ## Why Shopping Cart Matters
 
 ### The Old Way (Painful)

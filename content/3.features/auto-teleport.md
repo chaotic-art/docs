@@ -4,9 +4,7 @@ description: 'Seamless cross-chain DOT management - your funds automatically go 
 navigation: true
 ---
 
-# Auto-Teleport 🌀⚡
 
-**The most magical feature in DeFi** - your DOT automatically teleports to where it needs to be. No bridges, no manual transfers, no headaches.
 
 ## What is Auto-Teleport?
 

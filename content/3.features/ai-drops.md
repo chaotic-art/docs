@@ -4,10 +4,6 @@ description: 'Create unique NFTs using AI-powered generation tools built into Ch
 navigation: true
 ---
 
-# AI Drops 🧠✨
-
-Revolutionary AI-powered NFT creation is here! Generate unique digital art directly within Chaotic using cutting-edge artificial intelligence.
-
 ## What Are AI Drops?
 
 AI Drops combine **artificial intelligence** with **blockchain technology** to create truly unique NFTs that never existed before your prompt.

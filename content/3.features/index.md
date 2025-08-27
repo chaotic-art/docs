@@ -4,10 +4,6 @@ description: 'Discover the cutting-edge features that make Chaotic the fastest N
 navigation: true
 ---
 
-# Features That Make Us Chaotic ⚡
-
-Chaotic isn't just another NFT marketplace - we're packed with innovative features that revolutionize how you trade, create, and collect on Polkadot.
-
 ## Core Features
 
 ### 🛒 Shopping Cart System

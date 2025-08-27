@@ -4,9 +4,7 @@ description: 'Step-by-step guides for integrating Chaotic into your application 
 navigation: true
 ---
 
-# Integration Guides 🔧
 
-Learn how to integrate Chaotic's NFT marketplace functionality into your applications, websites, or services.
 
 ## Quick Start Integration
 

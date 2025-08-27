@@ -4,10 +4,6 @@ description: 'Deep dive into the technical architecture powering the fastest NFT
 navigation: true
 ---
 
-# Technical Infrastructure ⚡
-
-Chaotic's technical architecture is designed for **speed**, **scalability**, and **seamless user experience**. Here's how we deliver 5x performance improvements.
-
 ## Core Architecture
 
 ### Frontend Stack
