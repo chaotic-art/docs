@@ -67,9 +67,9 @@ Chaotic proves that **sustainable businesses** can operate as **public goods**, 
 
 ::u-button
 ---
-to: /basics/technical-infrastructure
+to: /onboarding
 color: primary  
 class: chaotic-btn
 ---
-Explore Technical Infrastructure
+Join Our Artist Community
 ::

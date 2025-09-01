@@ -1,6 +1,6 @@
 ---
 title: 'Start Here'
-description: 'Your journey into chaos begins here. Learn how to navigate Chaotic and start trading NFTs on Polkadot'
+description: 'Your journey with Chaotic NFT marketplace starts here'
 navigation: true
 ---
 

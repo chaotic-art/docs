@@ -3,6 +3,9 @@ title: 'Auto-Teleport'
 description: 'Seamless fund management between Polkadot Relay Chain and AssetHub'
 navigation: true
 ---
+## 🚧 Coming Soon
+
+**Auto-Teleport currently in development and will be available soon.**
 
 ## What is Auto-Teleport?
 

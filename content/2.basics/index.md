@@ -7,6 +7,18 @@ navigation: true
 ## Core Team
 
 ### The Builders
+
+Meet the core team behind Chaotic:
+
+**[Luuuu](https://x.com/Just_Luuuu)** - CEO  
+Leading the vision and strategy for Chaotic's growth in the Polkadot ecosystem.
+
+**[damsky](https://x.com/damskyftw)** - CGO  
+Driving community growth and ecosystem partnerships.
+
+**[Exez](https://x.com/OndraPulc)** - Design Lead  
+Crafting the beautiful and intuitive user experience that makes Chaotic special.
+
 Our team comes from diverse backgrounds in blockchain development, design, and community building. We're united by our shared vision of creating the best NFT experience in the Polkadot ecosystem.
 
 ### Our Mission

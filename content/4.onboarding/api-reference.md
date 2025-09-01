@@ -745,7 +745,7 @@ Ready to integrate?
 
 ::u-button
 ---
-to: /technical/integrations
+to: /onboarding/integrations
 color: primary
 class: chaotic-btn
 ---

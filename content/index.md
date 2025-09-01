@@ -13,7 +13,7 @@ Welcome to Chaotic
 #description
 The **public good NFT marketplace** for Polkadot - where innovation meets degeneracy, and everyone wins. Built by the community, for the community.
 
-We're not just another marketplace. We're the **evolution of KodaDot** - faster, better, more chaotic than ever before.
+We are the **next generation NFT marketplace** in the Koda ecosystem. Faster, better, more chaotic than ever before.
 
 #links
   :::u-button
