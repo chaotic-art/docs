@@ -1,252 +1,103 @@
 ---
 title: 'Auto-Teleport'
-description: 'Seamless cross-chain DOT management - your funds automatically go where they need to be'
+description: 'Seamless fund management between Polkadot Relay Chain and AssetHub'
 navigation: true
 ---
 
-
-
 ## What is Auto-Teleport?
 
-Auto-Teleport is our **intelligent cross-chain fund management system** that automatically moves your DOT across Polkadot parachains when needed.
+Auto-Teleport is our **intelligent fund management system** that automatically handles DOT transfers between supported chains when you make a purchase.
 
 ### The Problem It Solves
 
 **Before Auto-Teleport:**
-❌ NFTs on Asset Hub, but DOT on Relay Chain  
-❌ Manual XCM transfers required  
-❌ Complex parachain navigation  
-❌ Failed transactions due to wrong chain  
-❌ High cognitive overhead for users  
+❌ NFTs on AssetHub, but DOT on Relay Chain  
+❌ Manual transfers required  
+❌ Complex chain switching  
+❌ Failed transactions due to insufficient funds on target chain  
 
 **With Auto-Teleport:**
 ✅ **Click buy** - that's it!  
-✅ **System handles** all cross-chain complexity  
-✅ **Optimal routing** for lowest fees  
-✅ **Automatic retries** if transfers fail  
+✅ **System handles** transfers automatically  
+✅ **Single transaction** from your perspective  
 ✅ **Zero-friction** user experience  
 
 ## How Auto-Teleport Works
 
-### Smart Balance Detection
+### Current Functionality
 
-**Multi-Chain Scanning:**
-1. System scans your balance across:
-   - Polkadot Relay Chain
-   - Asset Hub (Statemint)
-   - Other connected parachains
-   - Kusama network (if configured)
+**Supported Networks:**
+- **Polkadot Relay Chain** ↔️ **Polkadot AssetHub**
+- **Kusama** ↔️ **Kusama AssetHub**
 
-2. **Real-time aggregation** of available funds
-3. **Route calculation** for optimal transfers
-4. **Fee estimation** across all possible paths
+### The Magic Behind a Purchase
 
-### Intelligent Routing
+**Example Scenario:**
+1. **You want to buy an NFT** for 12 DOT on AssetHub
+2. **You have funds** on Polkadot Relay Chain but not enough on AssetHub
+3. **Auto-teleport activates:**
+   - Detects you need funds on AssetHub
+   - Automatically teleports DOT from Relay Chain to AssetHub
+   - You only sign **one transaction**
+   - Purchase completes seamlessly
 
-**The Magic Behind the Scenes:**
-```typescript
-// Auto-teleport route calculation
-const optimalRoute = calculateBestRoute({
-  sourceChains: ['polkadot', 'assetHub', 'acala'],
-  targetChain: 'assetHub',
-  amount: requiredDOT,
-  prioritize: 'lowestFees' // or 'fastestTime'
-});
-```
-
-**Route Selection Factors:**
-- **Network congestion** levels
-- **Transaction fees** comparison  
-- **Transfer time** estimates
-- **Success probability** scoring
-
-### Execution Process
-
-**Step-by-Step:**
-1. **User clicks "Buy NFT"** (12 DOT needed)
-2. **Balance check:** Only 5 DOT on Asset Hub
-3. **Auto-scan:** 10 DOT found on Relay Chain
-4. **Route planning:** Teleport 7 DOT to Asset Hub
-5. **Automatic transfer:** XCM message sent
-6. **Confirmation wait:** ~12 seconds
-7. **NFT purchase:** Executes automatically
-8. **Success notification:** "NFT purchased!"
-
-## Supported Networks
-
-### Primary Networks
-- **Polkadot Relay Chain** ↔️ Asset Hub
-- **Asset Hub** ↔️ Other parachains
-- **Kusama** ↔️ Polkadot (via bridges)
-
-### Parachain Integration
-Currently supported:
-- ✅ **Asset Hub** (Primary NFT operations)
-- ✅ **Acala** (DeFi integration) 
-- ✅ **Moonbeam** (EVM compatibility)
-- ✅ **Astar** (Multi-VM support)
-- 🔄 **More parachains** being added monthly
-
-### Future Integrations
-- **Ethereum** (via Snowbridge)
-- **Cosmos** (via IBC bridge)
-- **Bitcoin** (via BTCfi protocols)
-- **Layer 2 solutions**
-
-## User Experience
-
-### Seamless Interactions
+### User Experience
 
 **What You See:**
 ```
 🛒 Purchase Summary
-NFT: Chaotic Degen #420
+NFT: Cool Collection #123
 Price: 12.5 DOT
-Your Balance: 15.2 DOT ✅
-Estimated Fees: ~0.3 DOT
-
-[Buy Now] [Add to Cart]
+Status: Processing purchase...
 ```
 
-**What Happens Behind Scenes:**
-- Balance aggregated from 3 different chains
-- Optimal transfer route calculated
-- XCM messages queued and executed
-- Transaction confirmed across networks
-- NFT delivered to your collection
+**What Happens Behind the Scenes:**
+1. Balance check across supported chains
+2. Automatic teleport from Relay Chain to AssetHub (if needed)
+3. NFT purchase executes
+4. Success notification
 
-### Loading States
+### Smart Balance Management
 
-**Smart Progress Indicators:**
-- 🔄 "Scanning balances..."
-- 📡 "Moving funds to Asset Hub..."
-- ⏳ "Confirming transfer..."  
-- 🎉 "Purchase complete!"
+- **Automatic detection** of fund location
+- **Optimal routing** for transfers
+- **Single signature** for the entire process
+- **Real-time balance** aggregation
 
-Each step shows estimated completion time and allows cancellation if needed.
+## Supported Networks
 
-## Advanced Features
+### Live Networks
+- ✅ **Polkadot Relay Chain** ↔️ **Polkadot AssetHub**
+- ✅ **Kusama** ↔️ **Kusama AssetHub**
 
-### Balance Optimization
+### How It Works
+- If you have DOT on Polkadot Relay Chain but need to buy an NFT on AssetHub
+- Auto-teleport automatically bridges your DOT to AssetHub
+- You sign once and the system handles the rest
+- No need to manually switch networks or use external bridges
 
-**Automatic Rebalancing:**
-- Keeps optimal amounts on each chain
-- Reduces future teleport needs
-- Minimizes total network fees
-- Learns from your usage patterns
+## User Benefits
 
-**Smart Predictions:**
-```typescript
-// Predictive balance management
-const userBehavior = analyzeUsage(userAddress);
-const optimalDistribution = {
-  relayChain: userBehavior.stakingAmount,
-  assetHub: userBehavior.avgNFTPurchase * 3,
-  acala: userBehavior.defiActivity
-};
-```
+### Seamless Experience
+- **One-click purchases** regardless of where your DOT is located
+- **No manual bridging** required
+- **Automatic fund routing** to the correct chain
+- **Unified balance view** across supported networks
 
-### Fee Optimization
+### Time & Fee Savings
+- **Eliminates extra steps** in the purchase process
+- **Optimized routing** for efficiency
+- **Batch processing** reduces overall fees
+- **No failed transactions** due to wrong chain balances
 
-**Dynamic Routing:**
-- **Real-time fee comparison** across routes
-- **Congestion avoidance** during network peaks
-- **Batch optimization** for multiple operations  
-- **Gas price prediction** using historical data
+## Getting Started
 
-**Fee Breakdown Display:**
-```
-💰 Transaction Cost Breakdown
-NFT Price: 12.5 DOT
-Teleport Fee: 0.05 DOT
-Network Fee: 0.08 DOT
----
-Total Cost: 12.63 DOT
-💡 Saved 0.12 DOT vs manual transfer!
-```
+1. **Connect your wallet** to Chaotic
+2. **Browse NFTs** on AssetHub
+3. **Click buy** - Auto-teleport handles the rest automatically
+4. **Sign once** and your purchase completes
 
-### Emergency Handling
-
-**Failure Recovery:**
-- **Automatic retries** with exponential backoff
-- **Alternative route** selection if primary fails
-- **Partial refunds** for failed operations
-- **Manual intervention** tools for edge cases
-
-**User Notifications:**
-- 🟡 "Transfer taking longer than expected..."
-- 🔴 "Transfer failed, trying alternative route..."
-- 🟢 "Backup route successful!"
-- 📞 "Contact support if issues persist"
-
-## Technical Implementation
-
-### XCM Integration
-```rust
-// Cross-chain message for DOT teleport
-let xcm_message = Xcm(vec![
-    ReserveAssetDeposited((Here, amount).into()),
-    ClearOrigin,
-    BuyExecution {
-        fees: (Here, fee_amount).into(),
-        weight_limit: Unlimited,
-    },
-    DepositAsset {
-        assets: All.into(),
-        max_assets: 1,
-        beneficiary: dest_account.into(),
-    },
-]);
-```
-
-### Security Measures
-
-**Multi-Layer Protection:**
-- ✅ **Transaction verification** before execution
-- ✅ **Balance validation** at each step
-- ✅ **Timeout protection** for stuck transfers
-- ✅ **Replay attack** prevention
-- ✅ **Rate limiting** for unusual activity
-
-### Performance Monitoring
-
-**Real-Time Metrics:**
-- Transfer success rates: **99.7%**
-- Average completion time: **8.3 seconds**
-- Fee optimization savings: **15.2% average**
-- User satisfaction score: **9.4/10**
-
-## Troubleshooting
-
-### Common Issues
-
-**"Insufficient Balance" Error:**
-- Check if you have DOT for network fees
-- Verify existential deposit requirements
-- Try smaller purchase amount
-- Contact support if balance shows incorrectly
-
-**"Transfer Taking Too Long":**
-- Network congestion may cause delays
-- Typical resolution time: 2-5 minutes
-- System will retry automatically
-- Cancel and retry if stuck >10 minutes
-
-**"Auto-Teleport Failed":**
-- Fallback to manual transfer option
-- Check network status page
-- Verify wallet connection
-- Submit support ticket with transaction hash
-
-### Manual Override
-
-**When Auto-Teleport is Disabled:**
-- Toggle in Settings → Advanced
-- Use traditional XCM transfers
-- Manual chain selection available
-- Expert mode for power users
-
-Ready to experience frictionless cross-chain trading?
+Whether your DOT is on Relay Chain or AssetHub, Auto-teleport ensures smooth purchases every time.
 
 ::u-button
 ---
@@ -259,9 +110,9 @@ Try Auto-Teleport Now
 
 ::u-button
 ---
-to: /technical
+to: /features/shopping-cart
 color: neutral
 variant: outline
 ---
-Technical Documentation
+Learn About Shopping Cart
 ::

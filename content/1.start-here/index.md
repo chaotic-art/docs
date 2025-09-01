@@ -7,19 +7,37 @@ navigation: true
 ## Quick Start Guide
 
 ### 1. Connect Your Wallet
-- Install Polkadot{.js} extension or Talisman wallet
+
+Choose from multiple wallet options to get started:
+
+**For EVM compatibility:**
+- **Talisman** - Full-featured wallet with cross-chain support
+- **SubWallet** - Multi-chain wallet for Polkadot ecosystem
+- **Polka Gate** - User-friendly Polkadot wallet
+- **CLV Wallet** - Cross-chain DeFi wallet
+- **Ledger** - Hardware wallet for maximum security
+
+**Getting started:**
+- Install your preferred wallet extension
 - Connect to the Chaotic marketplace
 - Ensure you have DOT for transactions
 
 ### 2. Browse Collections
+
+Discover amazing NFT collections:
 - Explore featured collections on the homepage
-- Use our advanced filtering system
-- Check out AI-generated drops
+- Browse all available collections at [beta.chaotic.art/ahp/explore/collectibles](https://beta.chaotic.art/ahp/explore/collectibles)
+- Use our advanced filtering system to find exactly what you're looking for
+- Check out AI-generated drops for unique creations
 
 ### 3. Start Trading
-- Add NFTs to your shopping cart
-- Auto-teleport will handle cross-chain transfers
-- Complete your purchase with a single transaction
+
+Ready to make your first purchase?
+- Click on any NFT you're interested in to view details
+- Click the shopping cart icon to add NFTs to your cart
+- **Buy multiple NFTs in one transaction** - Our revolutionary shopping cart system lets you purchase several NFTs at once
+- Auto-teleport will automatically handle cross-chain transfers
+- Complete your entire purchase with a single transaction
 
 ## What Makes Us Different?
 
