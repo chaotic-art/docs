@@ -26,14 +26,12 @@ navigation: true
 
 ## Why Polkadot?
 
-### Sustainability
-Polkadot's **Nominated Proof of Stake** consensus uses 99% less energy than Bitcoin, making us the greenest NFT marketplace.
 
 ### Future Interoperability  
 Planned expansion to trade NFTs across multiple parachains without bridges or wrapped tokens.
 
 ### Innovation
-Access to cutting-edge features like **PolkaVM** (coming Q3-Q4) and **XCM** cross-chain messaging.
+Access to cutting-edge features like **PolkaVM** (coming Q3-Q4) 
 
 ## Ecosystem Integrations
 
