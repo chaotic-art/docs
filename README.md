@@ -2,7 +2,7 @@
 
 > The **public good NFT marketplace** for Polkadot - where innovation meets degeneracy, and everyone wins.
 
-Chaotic is the evolution of KodaDot - faster, better, more chaotic than ever before. Built by the community, for the community on Polkadot.
+We're building the next generation NFT marketplace in the Polkadot ecosystem. Faster, better, more chaotic than ever before. Built by the community, for the community.
 
 > [!TIP]
 > Join our community on [Telegram](https://t.me/chaoticapp) or follow us on [X](https://x.com/ChaoticApp) for the latest updates.
@@ -10,19 +10,19 @@ Chaotic is the evolution of KodaDot - faster, better, more chaotic than ever bef
 ## ⚡ Features
 
 - ⚡ **Lightning Fast** - 5x performance improvement over traditional marketplaces
-- 🤖 **AI Drops** - Revolutionary AI-powered NFT creation and minting
+- 🤖 **AI Drops** - Revolutionary AI-powered NFT creation and minting *(Coming Soon)*
 - 🛒 **Shopping Cart** - Finally! Buy multiple NFTs in a single transaction
-- 🚀 **Auto-Teleport** - Seamless cross-chain fund management with DOT
+- 🚀 **Auto-Teleport** - Seamless cross-chain fund management with DOT *(Coming Soon)*
 - 🎨 **Artist-First** - Proven track record of consistent sellouts
-- 🔧 **PolkaVM Ready** - Next-generation smart contract execution (Coming Q3-Q4)
+- 🔧 **PolkaVM Ready** - Next-generation smart contract execution *(Coming Soon)*
 - 💎 **Public Good Model** - Everything we build benefits the entire Polkadot ecosystem
 
 ## 🚀 Quick Start
 
 ```bash
 # Clone the repository
-git clone https://github.com/chaotic-nft/chaotic-docs
-cd chaotic-docs
+git clone https://github.com/chaotic-art/docs
+cd docs
 
 # Install dependencies
 npm install
@@ -61,7 +61,7 @@ This documentation is powered by:
 
 ## 📖 About Chaotic
 
-Chaotic is more than just an NFT marketplace - we're building the future of digital ownership on Polkadot. Visit our [main application](https://chaotic.xyz) to start trading NFTs or explore our comprehensive documentation to learn more about our features and ecosystem.
+Chaotic is more than just an NFT marketplace - we're building the future of digital ownership on Polkadot. Visit our [main application](https://beta.chaotic.art) to start trading NFTs or explore our comprehensive documentation to learn more about our features and ecosystem.
 
 ## 🚀 Contributing
 
@@ -81,8 +81,8 @@ Built files are generated in the `.output` directory and can be deployed to any 
 
 - **Telegram**: [https://t.me/chaoticapp](https://t.me/chaoticapp)
 - **X (Twitter)**: [https://x.com/ChaoticApp](https://x.com/ChaoticApp)
-- **GitHub**: [https://github.com/chaotic-nft](https://github.com/chaotic-nft)
-- **Website**: [https://chaotic.xyz](https://chaotic.xyz)
+- **GitHub**: [https://github.com/chaotic-art](https://github.com/chaotic-art)
+- **Website**: [https://beta.chaotic.art](https://beta.chaotic.art)
 
 ## 📄 License
 
