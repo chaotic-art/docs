@@ -104,7 +104,7 @@ Whether your DOT is on Relay Chain or AssetHub, Auto-teleport ensures smooth pur
 
 ::u-button
 ---
-to: https://chaotic.xyz
+to: https://beta.chaotic.art
 color: primary
 class: chaotic-btn
 ---

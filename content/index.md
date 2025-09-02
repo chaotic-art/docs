@@ -8,12 +8,12 @@ navigation: false
 class: text-center
 ---
 #title
-Welcome to Chaotic
+Welcome to Chaotic Docs
 
 #description
 The **public good NFT marketplace** for Polkadot - where innovation meets degeneracy, and everyone wins. Built by the community, for the community.
 
-We are the **next generation NFT marketplace** in the Koda ecosystem. Faster, better, more chaotic than ever before.
+We're building the **next generation NFT marketplace** in the Polkadot ecosystem. Faster, better, more chaotic than ever before.
 
 #links
   :::u-button
@@ -28,7 +28,7 @@ We are the **next generation NFT marketplace** in the Koda ecosystem. Faster, be
 
   :::u-button
   ---
-  to: https://chaotic.xyz
+  to: https://beta.chaotic.art
   target: _blank
   size: xl
   variant: outline
@@ -61,7 +61,7 @@ Key Features That Make Us Chaotic
   class: chaotic-card
   ---
   #title
-  AI Drops [Powered by AI]{.text-primary}
+  AI Drops [Coming Soon]{.text-primary}
   
   #description
   Revolutionary AI-powered NFT creation and minting. Let artificial intelligence unleash your chaotic creativity and generate unique digital assets.
@@ -85,7 +85,7 @@ Key Features That Make Us Chaotic
   class: chaotic-card
   ---
   #title
-  Auto-Teleport [Cross-Chain Magic]{.text-primary}
+  Auto-Teleport [Coming Soon]{.text-primary}
   
   #description
   Seamless cross-chain fund management. Your DOT automatically teleports where it needs to be. No more manual bridging - just pure chaos efficiency.
@@ -109,7 +109,7 @@ Key Features That Make Us Chaotic
   class: chaotic-card
   ---
   #title
-  PolkaVM Integration [Coming Q3-Q4]{.text-primary}
+  PolkaVM Integration [Coming Soon]{.text-primary}
   
   #description
   Next-generation smart contract execution with PolkaVM. The future of Polkadot development is coming to Chaotic first.

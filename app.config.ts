@@ -3,12 +3,7 @@ export default defineAppConfig({
   socials: {
     x: 'https://x.com/ChaoticApp',
     telegram: 'https://t.me/chaoticapp', 
-    github: 'https://github.com/chaotic-nft'
-  },
-  
-  // GitHub link for header (this is what Docus looks for)
-  github: {
-    url: 'https://github.com/chaotic-nft'
+    github: 'https://github.com/chaotic-art/app'
   },
   
   // Header with logo, search, and social links  
@@ -27,7 +22,7 @@ export default defineAppConfig({
   footer: {
     iconLinks: [
       {
-        href: 'https://chaotic.xyz',
+        href: 'https://beta.chaotic.art',
         icon: 'simple-icons:ethereum'
       }
     ]

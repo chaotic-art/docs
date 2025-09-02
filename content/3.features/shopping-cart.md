@@ -94,7 +94,7 @@ Ready to fill up your cart with chaos?
 
 ::u-button
 ---
-to: https://chaotic.xyz
+to: https://beta.chaotic.art
 color: primary
 class: chaotic-btn
 ---
