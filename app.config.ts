@@ -6,11 +6,17 @@ export default defineAppConfig({
     github: 'https://github.com/chaotic-nft'
   },
   
+  // GitHub link for header (this is what Docus looks for)
+  github: {
+    url: 'https://github.com/chaotic-nft'
+  },
+  
   // Header with logo, search, and social links  
   header: {
     logo: {
       light: '/logo-dark.svg',  // Dark logo for light mode
-      dark: '/logo-light.svg'   // Light logo for dark mode
+      dark: '/logo-light.svg',   // Light logo for dark mode
+      alt: 'Chaotic Logo'
     },
     title: false,  // No title text
     showLinkIcon: true,
