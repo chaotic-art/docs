@@ -25,7 +25,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "docus": "^5.4.4",
+    "docus": "^4.0.0",
     "nuxt": "^4.0.0"
   },
   "engines": {
