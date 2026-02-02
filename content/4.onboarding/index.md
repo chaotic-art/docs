@@ -60,6 +60,7 @@ When contacting us, please include:
 - **Fair revenue splits** for creators
 - **Long-term partnerships** rather than one-off drops
 - **Community building** support
+- **[Creative funding](/onboarding/creative-funding)** for selected artists
 
 ### Technical Advantages
 - **Shopping cart system** - buyers can purchase multiple NFTs at once
