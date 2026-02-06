@@ -4,6 +4,10 @@ export default defineNuxtConfig({
   // Import custom CSS
   css: ['~/assets/css/chaotic.css'],
 
+  mcp: {
+    enabled: false,
+  },
+
   // Site configuration
   site: {
     name: ''  // Empty site name

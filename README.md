@@ -86,4 +86,4 @@ Built files are generated in the `.output` directory and can be deployed to any 
 
 ## 📄 License
 
-[MIT License](https://opensource.org/licenses/MIT) - Built with ❤️ for the Polkadot ecosystem 
+[MIT License](https://opensource.org/licenses/MIT) - Built with ❤️ for the Polkadot ecosystem # Trigger
