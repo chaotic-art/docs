@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>/start-here</loc>
+  </url>
+  <url>
+    <loc>/start-here/where-we-are-built</loc>
+  </url>
+  <url>
+    <loc>/basics</loc>
+  </url>
+  <url>
+    <loc>/basics/public-good-model</loc>
+  </url>
+  <url>
+    <loc>/features/ai-drops</loc>
+  </url>
+  <url>
+    <loc>/features/auto-teleport</loc>
+  </url>
+  <url>
+    <loc>/features</loc>
+  </url>
+  <url>
+    <loc>/features/shopping-cart</loc>
+  </url>
+  <url>
+    <loc>/onboarding/creative-funding</loc>
+  </url>
+  <url>
+    <loc>/onboarding</loc>
+  </url>
+  <url>
+    <loc>/</loc>
+  </url>
+</urlset>
