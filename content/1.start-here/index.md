@@ -51,7 +51,7 @@ Ready to dive deeper? Check out our detailed guides below!
 
 ::u-button
 ---
-to: /basics/team
+to: /basics
 color: primary
 class: chaotic-btn
 ---
